@@ -16,9 +16,9 @@ public class Punctuation
 	public void searchIt()
 	{
 		String text = new String("Blood, Sweat, and Tears by Winston Churchill " + "May 13, 1940 " +
-									"Mr. Speaker:" + "On Friday evening last I received His Majesty’s commission to form a new " +
+									"Mr. Speaker: " + "On Friday evening last I received His Majesty’s commission to form a new " +
 									"Administration. It was the evident wish and will of Parliament and the nation that this should be conceived" + 
-									" on the broadest possible basis and that it should include all parties, both those who supported the late Government and also the parties of the Opposition." +
+									" on the broadest possible basis and that it should include all parties, both those who supported the late Government and also the parties of the Opposition. " +
 									"I have completed the most important part of this task. A War Cabinet has been formed of five Members, " + 
 									"representing, with the Liberal Opposition, the unity of the nation. The three party Leaders have agreed to serve," +
 									" either in the War Cabinet or in high executive office. The three Fighting Services have been filled."+
@@ -34,7 +34,7 @@ public class Punctuation
 									"one of the greatest battles in history, that we are in action at many points in Norway and in Holland, that we have to be prepared in the Mediterranean, that the air battle is "+
 									"continuous and that many preparations have to be made here at home. In this crisis I hope I may be pardoned if I do not address the House at any length today. I hope that "+
 									"any of my friends and colleagues, or former colleagues, who are affected by the political reconstruction, will make all allowances for any lack of ceremony with which it has been "+
-									"necessary to act. I would say to the House, as I said to those who’ve joined this government: \"I have nothing to offer but blood, toil, tears and sweat.\"" +
+									"necessary to act. I would say to the House, as I said to those who’ve joined this government: \"I have nothing to offer but blood, toil, tears and sweat. \"" +
 									"We have before us an ordeal of the most grievous kind. We have before us many, many long months of struggle and of suffering. You ask, what is our policy? I will say: "+
 									"It is to wage war, by sea, land and air, with all our might and with all the strength that God can give us; to wage war against a monstrous tyranny, never "+
 									"surpassed in the dark and lamentable catalogue of human crime. That is our policy. You ask, what is our aim? I can answer in one word: victory. Victory at all costs, victory in "+
