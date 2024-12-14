@@ -3,7 +3,25 @@
 //This program searches for words that have the punctuations(. , ; : ! ?
 // ' " ... () -). It will take some	text, read	it	word
 //by word and print all	of the words that have some	punctuation	in it.		
-
+/*Pseudocode
+ * class header
+ * 	main
+ * 		class instance
+ * 		call searchIt
+ * searchIt
+ * 		D&I text
+ * 		call getPunctuation
+ * getPunctuation
+ * 		loop:
+ * 		find the word between two space
+ * 		call checkPunctuation
+ * 		if true is returned, call printWord
+ * checkPunctuation
+ * 		use loop to check punctuation one by one
+ * 		if yes, return true
+ * printWord
+ * 		print the word
+ */
 
 public class Punctuation
 {
