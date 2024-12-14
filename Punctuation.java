@@ -70,13 +70,12 @@ public class Punctuation
 	
 	public boolean checkForPunctuation(String input)	//check if the input word contains punctuation
 	{
-		int lastChar = (int)(input.charAt(input.length()-1));	//store the ASCII value of the last character of the word
-		int firstChar = (int)(input.charAt(0));					//store the ASCII value of the first character of the word
-		if(lastChar>32&&(lastChar<48||(lastChar>57&&lastChar<64)||(lastChar>90&&lastChar<97)||lastChar>122))			//check if the last letter is a punctuation
-			return true;
-		else if(firstChar>32&&(firstChar<48||(firstChar>57&&firstChar<64)||(firstChar>90&&firstChar<97)||firstChar>122))//check if the first letter is a punctuation
-			return true;
-		else
-			return false;
+		for(int i=0;i<input.length();i++)
+		{
+			int ch = (int)(input.charAt(i));	//store the ASCII value of the character
+			if(ch>32&&(ch<48||(ch>57&&ch<64)||(ch>90&&ch<97)||ch>122))//check if the character is a punctuation
+				return true;
+		}
+		return false;
 	}
 }
